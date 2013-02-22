@@ -1,0 +1,13 @@
+{
+    "name": "accelerockets"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "connect": "2.0",
+      "socket.io": "0.9"
+  }
+  ,"engines": {
+    "node": "0.8.x",
+    "npm":  "1.1.x"
+  }
+}
