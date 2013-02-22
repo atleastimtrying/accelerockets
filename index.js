@@ -9,7 +9,39 @@ var Phrases = function(){
       transmitting: false
     },
     {
-      name:'dog',
+      name:'yellow',
+      transmitting: false
+    },
+    {
+      name:'vase',
+      transmitting: false
+    },
+    {
+      name:'iguana',
+      transmitting: false
+    },
+    {
+      name:'real',
+      transmitting: false
+    },
+    {
+      name:'yoghurt',
+      transmitting: false
+    },
+    {
+      name:'noise',
+      transmitting: false
+    },
+    {
+      name:'happiness',
+      transmitting: false
+    },
+    {
+      name:'steel',
+      transmitting: false
+    },
+    {
+      name:'bassoon',
       transmitting: false
     }
   ];
