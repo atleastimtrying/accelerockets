@@ -1,10 +1,11 @@
 var connect = require("connect");
 var app = connect().use(connect.static('public')).listen(process.env.PORT || 8080);
-var io = require('socket.io').listen(app);
-// io.configure(function () { 
-//   io.set("transports", ["xhr-polling"]); 
-//   io.set("polling duration", 10); 
-// });
+var io = require('socket.io');
+io.configure(function () { 
+  io.set("transports", ["xhr-polling"]); 
+  io.set("polling duration", 10); 
+});
+io.listen(app);
 
 var Phrases = function(){
   var phrases = [
