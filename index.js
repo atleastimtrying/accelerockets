@@ -5,8 +5,7 @@ io.configure(function () {
   io.set("transports", ["xhr-polling"]); 
   io.set("polling duration", 10); 
 });
-io.listen(app);
-
+io = io.listen(app);
 var Phrases = function(){
   var phrases = [
     {
