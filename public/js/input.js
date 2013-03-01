@@ -8,7 +8,7 @@ $(function(){
 		socket.emit('phraseRequest');
 		socket.on('accept', function(phrase){
 			$('#passphrase').html(phrase);
-			$(window).on('deviceorientation, mousemove', function(event){
+			$(window).on('deviceorientation', function(event){
 				event = event.originalEvent;
 				if(event.alpha){
 					var x = roundit(event.alpha);
